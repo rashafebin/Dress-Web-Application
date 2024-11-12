@@ -1,0 +1,266 @@
+/* src/HomePage.css */
+.homepage {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .homepage-image {
+    width: 100vw;
+    height: 600px;
+
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+  
+  .homepage-content {
+    top: 80px;
+    position: absolute;
+    color: aliceblue;
+  }
+  
+  /* Default styling for larger screens */
+  .homepage-content h1 {
+    font-size: 3.5rem;
+    color: #333;
+  }
+  
+  .homepage-content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For tablets (min-width: 600px) */
+  @media (max-width: 768px) {
+    .homepage-content h1 {
+      font-size: 2rem;
+      top: 100px;
+    }
+  
+    .homepage-content p {
+      font-size: 1rem;
+      top: 100px;
+    }
+  }
+  
+  /* For mobile phones (min-width: 480px) */
+  @media (max-width: 480px) {
+    .homepage-content h1 {
+      font-size: 1.5rem;
+      top: 100px;
+    }
+  
+    .homepage-content p {
+      font-size: 0.9rem;
+      top: 100px;
+    }
+  }
+  
+
+
+
+
+
+
+
+/* src/YourComponent.css */
+.container {
+    width: 100%;
+    padding: 0 15px; 
+    box-sizing: border-box; 
+  }
+  
+  .row {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: -15px; 
+  }
+  
+  .col {
+    flex: 1; 
+    padding: 15px; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 400px; 
+    width: 350px; 
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .col {
+      width: 300px; 
+      height: 300px; 
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .col {
+      width: 250px; 
+      height: 250px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col {
+      width: 100%; 
+      height: auto; 
+      max-width: 100%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .col {
+      padding: 10px;
+    }
+  }
+  
+
+
+
+
+
+.colum1{
+    position: absolute;
+    color: aliceblue;
+}
+
+.colum2{
+    position: absolute;
+    color: aliceblue;
+}
+.colum3{
+    position: absolute;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.page-image {
+  width: 100vw;
+  height: 500px;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.page-content {
+  top: 80px;
+  position: absolute;
+  color: aliceblue;
+}
+
+/* Default styling for larger screens */
+.page-content h1 {
+  font-size: 3.5rem;
+  color: #f8f5f5;
+}
+
+.page-content p {
+  font-size: 1.2rem;
+  color: #f4f2f2;
+}
+
+/* Media queries for responsiveness */
+
+/* For tablets (min-width: 600px) */
+@media (max-width: 768px) {
+  .page-content h1 {
+    font-size: 2rem;
+    top: 100px;
+  }
+
+  .page-content p {
+    font-size: 1rem;
+    top: 100px;
+  }
+}
+
+/* For mobile phones (min-width: 480px) */
+@media (max-width: 480px) {
+  .page-content h1 {
+    font-size: 1.5rem;
+    top: 100px;
+  }
+
+  .page-content p {
+    font-size: 0.9rem;
+    top: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/ProductFooter.css */
+.product-footer {
+  background-color: #f8f8f8;
+  color: #333;              
+  padding: 2rem 0;        
+  border-top: 1px solid #ddd; 
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; 
+  max-width: 1200px; 
+  margin: 0 auto;    
+  padding: 0 1rem;
+  /* margin-left: 500px;   */
+  
+}
+.footer-container section {
+  flex: 1;           
+  margin: 0 1rem;    
+}
+
+.footer-container h4 {
+  margin-bottom: 0.5rem; 
+  font-size: 1.1rem;    
+}
+
+.footer-container ul {
+  list-style: none;    
+  padding: 0;          
+}
+.footer-container li {
+  margin-bottom: 0.5rem; 
+}
+
+.footer-container a {
+  color: #333;        
+  text-decoration: none; 
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
